@@ -1,0 +1,28 @@
+.faq-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+h2{
+    background-color:rgb(167, 124, 15) ;
+    padding: 70px;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+.faq-item {
+    background-color:rgb(168, 130, 32);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item h3 {
+    color: #35424a;
+}
+
+.faq-item p {
+    margin: 0 0 15px;
+}
