@@ -2,6 +2,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-position: center;
+    border-style:solid;
+    
 }
 
 header {
@@ -51,6 +54,7 @@ main section {
     position: relative;
     margin-left: 200px;
     margin-top: 80px;
+    color:green;
 }
 
 .circle-text {
