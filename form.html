@@ -1,123 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>form</title>
-    <link rel="stylesheet" href="../ECW.css" />
-  </head>
-  <body class="forms">
-    <div class="logo-image">
-      <img src="" alt="">
-  </div>
-  <nav class="navigation-items">
-      <ul class="list-menu">
-          <li ><a href="#">Home</a></li>
-          <li><a href="./navbar/about.html">About</a></li>
-          <li><a href="#">Clothes</a></li>
-          <li><a href="./navbar/form.html">Forms</a></li>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">Contact </a></li>
-      </ul>
-  </nav>
-    <div class="all-forms">
-    <div class="buyer-form">
-      <center>
-        <h1>Buyer-Form</h1>
-        <form action="#" method="post">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required />
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required />
-          <label for="subject">Account no:</label>
-          <input type="number" id="subject" name="subject" required />
-          <label for="message">Message:</label>
-          <textarea id="message" name="message" rows="4" required></textarea>
-          <button type="submit">Submit</button>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buyer Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header><div class="bini"
+        > <nav>
+             <ul>
+                 <li>
+                     <a href="#">home</a>
+                 </li>
+                 <li> 
+                     <a href="About.html">About</a>
+                 </li>
+                 <li>
+                      <a href="clothes.html">Cloths</a>
+                     </li>
+                 <li>
+                     <a href="form.html">Form</a>
+                 </li>
+                 <li>
+                     <a href="FAQ.html">FAQ</a>
+                 </li>
+                 <li>
+                     <a href="#">Contact</a>
+                 </li>
+             </ul>
+         </nav>
+        <p></p>
+    </div></header>
+    <div class="form-container">
+        <h2>Buyer Form</h2>
+        <form id="buyerForm">
+            <label for="buyerName">Name:</label>
+            <input type="text" id="buyerName" name="buyerName" required><br>
+            
+            <label for="buyerEmail">Email:</label>
+            <input type="email" id="buyerEmail" name="buyerEmail" required><br>
+            
+            <label for="buyerPhone">Phone:</label>
+            <input type="number" id="buyerPhone" name="buyerPhone" required><br>
+            
+            <label for="buyerAddress">Address:</label>
+            <textarea id="buyerAddress" name="buyerAddress" required></textarea><br>
+            
+            <label for="buyerItem">Item Interested:</label>
+            <input type="text" id="buyerItem" name="buyerItem" required><br>
+            
+            <button type="submit">Submit</button>
         </form>
-      </center>
     </div>
-    <div class="seller-form">
-      <center>
-        <h1>Seller-Form</h1>
-        <form action="#" method="post">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required />
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required />
-          <label for="subject">Account no:</label>
-          <input type="number" id="subject" name="subject" required />
-          <label for="message">Message:</label>
-          <textarea id="message" name="message" rows="4" required> </textarea>
-          <button type="submit">Submit</button>
-        </form>
-      </center>
-    </div>
-  </div>
-  <footer>
-    <div class="box-1">
-    
-    <h3>Quick Links</h3>
-    <div class="other">
-        <h5><a href="#">Home</a></h5>
-        <h5><a href="#">About</a></h5>
-        <h5><a href="#">cultural clothes</a></h5>
-        <h5><a href="#">form of buyer</a></h5>
-        <h5><a href="#">form of seller</a></h5>
-        <h5><a href="#">FAQ</a></h5>
-        <h5><a href="#">Contact</a></h5>
-        
-    </div>
-    
-    
-    </div>
-    <div class="box-2">
-    
-        <h3>Important Links</h3>
-        <div class="other">
-            <h5><a href="#">Refund Policy</a></h5>
-            <h5><a href="#">Terms and Condition</a></h5>
-            <h5><a href="#">Sizing</a></h5>
-            <h5><a href="#">Order Tracking</a></h5>
-            
-            
-        </div>
-        
-        
-        </div>
-        <div class="box-3">
-    
-            <h3>Our mission</h3>
-            <div class="other">
-                <h5 class="unique">
-                    <a href=""> <br>
-                promote and sell ethiopian<br>
-            tradional clothes and other<br>such as spices and jwelry </a>
-                </h5>
-                
-            </div>
-            
-            
-            </div>
-            <div class="social-media">
-                <a href="www.facebook.com" target="_blank">
-                    <img src="../fb.png.png" alt="facebook" class="social-logo">
-                    
-                </a>
-                <a href="https://t.me/Burika1212" target="_blank">
-                    <img src="../tg.png.png" alt="telegram" class="social-logo">
-                   
-                </a>
-                <a href="www.instagram.com" target="_blank">
-                    <img src="../ig.png.png" alt="instagram" class="social-logo">
-                   
-                </a>
-                <!-- <a href="www.youtube.com">
-                    <img src="../yt.png.webp" alt="youtube">
-                   
-                </a> -->
-            </div>
-          </footer> 
-  </body>
+</body>
 </html>
-
