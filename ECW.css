@@ -19,6 +19,9 @@ body {
   height: 300px;
   margin-left: -10px;
   margin-top: -10px;
+  background-color:#fff8e1;
+  
+  
 }
 #ethio {
   font-family: "Courier New", Courier, monospace;
@@ -35,11 +38,11 @@ body {
 
 li a {
   list-style-type: none;
-  word-spacing: 0;
+  
   color: black;
-  word-spacing: px;
+  word-spacing:1px;
   text-decoration: none;
-  margin-left: px;
+  margin-left:2px;
 }
 .navigation-items .list-menu li a:hover {
   background-color: rgb(155, 131, 131);
@@ -61,6 +64,7 @@ li a {
   z-index: 1000;
 }
 .navigation-items a {
+  align-items:center;
   color: aliceblue;
 }
 .navigation-items ul li {
@@ -115,6 +119,7 @@ li a ::hovar {
   flex-grow: 1;
   flex-basis: 0;
   transition: 0.8s;
+  borber-rasius:10px;
 }
 .image-box img {
   width: 100%;
